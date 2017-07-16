@@ -1,0 +1,18 @@
+{
+    "host":"http://localhost:3000",
+    "sessionSecret":"rahul",
+    "dbURI":"mongodb://rahulbora:boris@2068@ds159662.mlab.com:59662/rahultest",
+    "fb":{
+        "clientID":"1180379132107585",
+        "clientSecret":"14f5448aa53cbd7985baa1d46e7202f8",
+    "callbackURL":"//localhost:3000/auth/facebook/callback",
+     "profileFields ":["id", "displayName", "photos"]
+    },
+    "twitter":{
+        "consumerKey":"9s4PI6Gz2dC9BvsEGRGWVxoQz",
+         "consumerSecret":"r01EDzFvTa0v6y07mRf4OHagz4GJoYM0wRd3SLmwcL8YtjvJij",
+          "callbackURL":"//localhost:3000/auth/twitter/callback",
+        "profileFields ":["id", "displayName", "photos"]
+    }
+}
+
